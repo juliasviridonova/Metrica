@@ -97,6 +97,7 @@ p.aboutus_description {
         white-space: nowrap;
         
     }
+   
 }
 
 @media (max-width: 767px) {
@@ -136,6 +137,9 @@ p.aboutus_description {
         line-height: 22px;
         white-space: nowrap;
 
+    }
+     h2 {margin-bottom: 20px;
+        font-size: 14px;
     }
 }
 

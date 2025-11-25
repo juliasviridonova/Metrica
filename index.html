@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Метрика</title>
+  <link rel="icon" href="resources/icon.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
@@ -44,15 +45,36 @@
     <div id="projects">
       <h3>ПРОЕКТЫ</h3>
       <div class="projects_design">
-        <img class="projects_image-studio responsive-img" src="resources/divan.png">
+        <picture>
+          <source 
+          media="(max-width: 767px)" 
+          srcset="resources/divan_mobile.png"
+          />
+          <source 
+          media="(min-width: 768px) and (max-width: 1199px)" 
+          srcset="resources/divan_tablet.png"
+          />
+          <img class="projects_image-studio responsive-img" src="resources/divan.png"
+          />
+        </picture>
         <p class="projects_GK">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
         <a href="/404" class="projects_link">Подробнее →</a>
 
-        <img class="projects_image-studio" src="resources/gostinnaya.png">
+        <picture>
+          <source media="(max-width: 767px)" srcset="resources/gostinnaya_mobile.png"/>
+          <source media="(min-width: 768px) and (max-width: 1199px)" srcset="resources/gostinnaya_tablet.png"/>
+          <img class="projects_image-studio" src="resources/gostinnaya.png"/>
+        </picture>
+        
         <p class="projects_GK">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
         <a href="/404" class="projects_link">Подробнее →</a>
 
-        <img class="projects_image-studio" src="resources/kuhnya.png">
+        <picture>
+          <source media="(max-width: 767px)" srcset="resources/kuhnya_mobile.png"/>
+          <source media="(min-width: 768px) and (max-width: 1199px)" srcset="resources/kuhnya_tablet.png"/>
+          <img class="projects_image-studio" src="resources/kuhnya.png"/>
+        </picture>
+        
         <p class="projects_GK">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
         <a href="/404" class="projects_link">Подробнее →</a>
         <a href="/404" class="projects_all_projects">Смотреть все проекты</a>
