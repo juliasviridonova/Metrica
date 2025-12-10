@@ -9,39 +9,85 @@
     letter-spacing: -0.03em;
 }
 
-.uslugi {
-    padding-left: 127px;
-}
-
 h4 {
     margin: 0 auto;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
     padding-top: 151px;
+    padding-left: 127px;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
 }
 
 .vse_uslugi {
-    width: 1150px;
-    height: 270px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    padding-left: 125px;
+    gap: 11px;
+    row-gap: 151px;
+}
+
+.box {
+    
+    height: 389px;
+}
+
+
+.image-uslug1 {
+    position: relative;
+    margin-bottom: 25px;
+    width: 569px;
+    height: 389px;
+    background-image: url('../resources/pencil.png');
 
 }
 
-.text-uslug:nth-last-child(1) {
-    margin-bottom: 150px;
+.price {
+    position: absolute;
+    top: 31px;
+    left: 30px;
+    padding: 5px 20px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 30px;
+    background-color: #AD1818;
+    border-radius: 5px;
 }
 
-.image-uslug {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-bottom: 15px;
+
+
+.image-uslug2 {
+    position: relative;
+    margin-bottom: 25px;
+    width: 572px;
+    height: 389px;
+    background-image: url('../resources/colors.png');
+}
+
+.image-uslug3 {
+    position: relative;
+    margin-bottom: 17px;
+    width: 567px;
+    height: 389px;
+    background-image: url('../resources/lineyka.png');
+}
+
+.image-uslug4 {
+    position: relative;
+    margin-bottom: 17px;
+    width: 572px;
+    height: 389px;
+    background-image: url('../resources/korobki.png');
 }
 
 .text-uslug {
-    margin-bottom: 60px;
+    
+    width: 344px;
+    height: 41px;
     font-weight: 400;
     font-size: 30px;
     line-height: 41px;
 }
+
