@@ -3,7 +3,7 @@
     box-sizing: border-box;
     top: 3868px;
     width: 1400px;
-    height: 1844px;
+    height: 1602px;
     background-color: #121212;
     color: #FFFFFF;
     letter-spacing: -0.03em;
@@ -83,7 +83,6 @@ h4 {
 }
 
 .text-uslug {
-    
     width: 344px;
     height: 41px;
     font-weight: 400;
@@ -91,3 +90,12 @@ h4 {
     line-height: 41px;
 }
 
+.order {
+    margin-top: 164px;
+    margin-left: 125px;
+    width: 1150px;
+    height: 153px;
+    background-color: #AD1818;
+    color: #FFFFFF;
+    font-size: 30px;
+}
