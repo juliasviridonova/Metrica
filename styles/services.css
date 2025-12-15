@@ -183,7 +183,7 @@ h4 {
         margin-bottom: 10px;
         width: 350px;
         height: 240px;
-        background-size: contain;
+        background-size: cover;
     }
     .price {
     position: absolute;
