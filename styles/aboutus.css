@@ -102,6 +102,7 @@ p.aboutus_description {
 
 @media (max-width: 767px) {
     h1 {
+        margin-top: 61px;
         margin-bottom: 25px;
         width: 348px;
         font-size: 30px;
@@ -109,7 +110,7 @@ p.aboutus_description {
     }
 
     .aboutus_interior {
-        width: 100%;
+        width: 350px;
         margin-bottom: 80px;
         height: 304px;
     }
@@ -146,6 +147,7 @@ p.aboutus_description {
 @media (max-width: 400px) {
     .aboutus_interior {
     background-image: url('../resources/interior_mobile.png');
+    background-size: cover;
     }
 }
     
