@@ -99,6 +99,7 @@ h4 {
     color: #FFFFFF;
     font-size: 30px;
     border-radius: 5px;
+    border: none;
 }
 
 @media (max-width: 1199px) {
