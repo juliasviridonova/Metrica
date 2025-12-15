@@ -153,7 +153,7 @@ h4 {
 
 @media (max-width: 767px) {
     .services_container_black {
-     width: 100%;
+     width: 375px;
      height: 1663px;
     }
 
