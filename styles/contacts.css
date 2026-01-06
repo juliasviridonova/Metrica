@@ -6,7 +6,9 @@
     color: #121212;
 }
 
-h5 {
+
+
+.h7 {
     margin-left: 124px;
     margin-bottom: 32px;
     padding-top: 150px;
@@ -15,7 +17,7 @@ h5 {
     line-height: 25px;
 }
 
-h5::before {
+.h7::before {
     content: '';
     display: block;
     margin-bottom: 12px;

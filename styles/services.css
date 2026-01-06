@@ -10,7 +10,6 @@
 }
 
 h4 {
-    margin: 0 auto;
     margin-bottom: 30px;
     padding-top: 151px;
     padding-left: 127px;
@@ -63,6 +62,7 @@ h4 {
     width: 572px;
     height: 389px;
     background-image: url('../resources/colors.png');
+    
 }
 
 .image-uslug3 {
