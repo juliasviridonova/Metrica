@@ -2,7 +2,7 @@
     margin: 0 auto;
     width: 1400px;
     height: 1252px;
-    padding-left: 125px;
+    padding-left: 121px;
     padding-right: 125px;
     background: #FFFFFF;
 }
@@ -10,6 +10,7 @@
 h5 {
     padding-top: 150px;
     padding-bottom: 30px;
+    padding-left: 4px;
     font-size: 18px;
     line-height: 25px;
     color: #121212;
@@ -32,14 +33,16 @@ h5 {
 }
 
 .feedback {
+    padding-left: 3px;
     width: 528px;
     font-size: 22px;
-    line-height: 30px;
+    line-height: 32.5px;
     letter-spacing: -0.03em;
 }
 
 .feedback_big {
     width: 861px;
+    line-height: 30px;
 }
 
 @media (max-width: 1199px) {
