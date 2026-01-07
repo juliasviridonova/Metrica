@@ -1,6 +1,7 @@
 .container-reviews {
     margin: 0 auto;
     width: 1400px;
+    height: 1252px;
     padding-left: 125px;
     padding-right: 125px;
     background: #FFFFFF;
@@ -17,7 +18,9 @@ h5 {
 
 .vse-reviews {
     display: flex;
+    flex-wrap: wrap;
     gap: 51px;
+    row-gap: 50px;
     letter-spacing: -0.03em;
     color: #000000;
 }
@@ -35,6 +38,10 @@ h5 {
     letter-spacing: -0.03em;
 }
 
+.feedback_big {
+    width: 861px;
+}
+
 @media (max-width: 1199px) {
     .container-reviews {
         width: 960px;
@@ -49,6 +56,7 @@ h5 {
 
     .vse-reviews {
         gap: 10px;
+        row-gap: 80px;
     }
 
     .named {
@@ -62,6 +70,10 @@ h5 {
     font-size: 20px;
     line-height: 27px;
     }
+
+    .feedback_big {
+    width: 694px;
+}
 }
 
 @media (max-width: 767px) {
