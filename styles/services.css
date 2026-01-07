@@ -19,7 +19,6 @@ h4 {
 }
 
 .vse_uslugi {
-    
     display: flex;
     flex-wrap: wrap;
     width: fit-content;
@@ -109,13 +108,13 @@ h4 {
     }
 
     h4 {
-    padding-left: 19px;
+        padding-left: 19px;
     }
 
     .vse_uslugi {
-    padding-left: 15px;
-    gap: 10px;
-    row-gap: 136px;
+        padding-left: 15px;
+        gap: 10px;
+        row-gap: 136px;
     }
     .box {
         height: 315px;
@@ -159,7 +158,6 @@ h4 {
     }
 
     h4 {
-        
         margin-bottom: 20px;
         padding-top: 80px;
         padding-left: 17px;
@@ -186,21 +184,21 @@ h4 {
         background-size: cover;
     }
     .price {
-    position: absolute;
-    top: 24px;
-    left: 24px;
-    padding: 5px 24px;
-    height: 30px;
-    font-size: 14px;
-    line-height: 19px;
-    background-color: #AD1818;
-    border-radius: 3.8px;
+        position: absolute;
+        top: 24px;
+        left: 24px;
+        padding: 5px 24px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 19px;
+        background-color: #AD1818;
+        border-radius: 3.8px;
     }
 
     .text-uslug {
-    font-size: 18px;
-    line-height: 31px;
-}
+        font-size: 18px;
+        line-height: 31px;
+    }
 
     .order {
         margin-top: 101px;

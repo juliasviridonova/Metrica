@@ -49,12 +49,13 @@ h5 {
     .container-reviews {
         width: 960px;
         height: 1165px;
-        padding-left: 16px;
+        padding-left: 13px;
         padding-right: 15px;
     }
 
     h5 {
-    padding-top: 117px;
+        padding-top: 117px;
+        padding-left: 4px;
     }
 
     .vse-reviews {
@@ -63,33 +64,35 @@ h5 {
     }
 
     .named {
-    margin-bottom: 25px;
-    font-size: 35px;
-    line-height: 48px;
+        margin-bottom: 25px;
+        font-size: 35px;
+        line-height: 48px;
     }
 
     .feedback {
-    width: 459px;
-    font-size: 20px;
-    line-height: 27px;
+        padding-left: 3px;
+        width: 459px;
+        font-size: 20px;
+        line-height: 27px;
     }
 
     .feedback_big {
-    width: 694px;
-}
+        width: 694px;
+    }
 }
 
 @media (max-width: 767px) {
     .container-reviews {
         width: 375px;
         height: 1432px;
-        padding-left: 13px;
+        padding-left: 11px;
         padding-right: 13px;
     }
 
     h5 {
         padding-top: 80px;
         padding-bottom: 22px;
+        padding-left: 2px;
         font-size: 14px;
         line-height: 19px;
     }
@@ -106,6 +109,7 @@ h5 {
     }
 
     .feedback {
+        padding-left: 2px;
         width: 349px;
         font-size: 16px;
         line-height: 21.5px;
