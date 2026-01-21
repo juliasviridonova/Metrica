@@ -18,13 +18,13 @@
 }
 
 .h7::before {
-    content: '';
-    display: block;
-    margin-bottom: 12px;
-    width: 24px;
-    height: 24px;
-    background-image: url('../resources/telephone.png');
-    background-size: contain;
+  content: '';
+  display: block;
+ margin-bottom: 12px;
+  width: 24px;
+  height: 24px;
+  background-image: url('../resources/telephone.png');
+  background-size: contain;
 }
 
 .contacts_number {

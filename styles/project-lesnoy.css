@@ -1,19 +1,160 @@
 .container_project_lesnoy {
-    margin: 0 auto;
-    box-sizing: border-box;
     position: relative;
+    margin: 0 auto;
     Width: 1400px;
-    Height: 717px;
-    background-image: url('../resources/bed.png');
+}
+
+h6 {
+    position: absolute;
+    top: 60px;
+    left: 124px;
+    font-size: 22px;
+    color: #FFFFFF;
+    letter-spacing: -0.03em;
+    line-height: 30px;
+    z-index: 100;
 }
 
 .project_text {
     margin: 0 auto;
     position: absolute;
-    bottom: 60px;
+    top: 575px;
     left: 125px;
-    height: 82px;
+    line-height: 41px;
     width: 443px;
     font-size: 30px;
     color: #FFFFFF;
+    z-index: 100;
 }
+
+.gallery_controls {
+    position: absolute;
+    display: flex;
+    width: 375px;
+    top: 515px;
+    left: 115px;
+}
+
+.gallery_controls-prev, .gallery_controls-next {
+    background: transparent;
+    border: none;
+    padding: 0; 
+    margin: 0; 
+    cursor: pointer;
+}
+
+.gallery_slides {
+    height: 717px;
+    position: relative;
+}
+
+.gallery_slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.gallery__slide_active {
+    opacity: 1;
+}
+
+.slide {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bed {
+    background-image: url('../resources/bed.png');
+}
+
+.mayk {
+    background-image: url('../resources/ЖК\ Маяк.png');
+}
+
+.private_home {
+    background-image: url('../resources/в\ частном\ доме.png');
+}
+
+.north_wind {
+    background-image: url('../resources/ЖК\ северный\ ветер.png');
+}
+
+@media (max-width: 1199px) {
+    .container_project_lesnoy {
+        Width: 959px;
+    }
+
+    h6 {
+        top: 80px;
+        left: 50px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .project_text {
+        top: 388px;
+        left: 50px;
+        line-height: 34px;
+        width: 377px;
+        font-size: 25px;
+    }
+
+    .gallery_controls {
+        top: 344px;
+        left: 41px;
+    }
+
+    .gallery_slides {
+        height: 536px;
+        
+    }
+}
+
+@media (max-width: 767px) {
+
+    .container_project_lesnoy {
+        Width: 375px;
+    }
+
+    h6 {
+        top: 61px;
+        left: 12px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .project_text {
+        top: 296px;
+        left: 13px;
+        line-height: 26px;
+        width: 287px;
+        font-size: 19px;
+        
+    }
+
+    .gallery_controls {
+        width: 363px;
+        left: 7px;
+        top: 50%;
+        justify-content: space-between; 
+    }
+
+    .gallery_controls-prev, .gallery_controls-next {
+        width: 30px;
+        height: 30px;
+    }
+
+    .gallery_slides {
+        height: 408px;
+    }
+
+    .slide {
+        background-image: url('../resources/bed_mobile.png');
+    }
+}
+
+
