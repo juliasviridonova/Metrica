@@ -33,10 +33,12 @@ h6 {
     width: 375px;
     top: 515px;
     left: 115px;
+    gap: 14px;
 }
 
 .gallery_controls-prev, .gallery_controls-next {
     background: transparent;
+    height: 40px;
     border: none;
     padding: 0; 
     margin: 0; 
@@ -65,6 +67,7 @@ h6 {
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .bed {
@@ -152,9 +155,7 @@ h6 {
         height: 408px;
     }
 
-    .slide {
-        background-image: url('../resources/bed_mobile.png');
-    }
+    
 }
 
 
