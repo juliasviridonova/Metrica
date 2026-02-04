@@ -6,6 +6,7 @@
 @import "../styles/project-lesnoy.css";
 @import "../styles/last-container.css";
 @import "../styles/reviews.css";
+@import "../styles/popup.css";
 
 * {
     box-sizing: border-box;
