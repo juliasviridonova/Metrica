@@ -21,4 +21,11 @@ function toggleBurger() {
     burgerNode.classList.toggle(BURGER_OPENED_CLASSNAME);
     bodyNode2 .classList.toggle(BODY_FIXED_CLASSNAME_2);
     burgerBtnNode.classList.toggle(BURGER_BTN_OPENED_CLASSNAME);
-}
+}   
+
+const burgerCrossNode = document.querySelector('.burger_cross');
+
+burgerCrossNode.addEventListener('click', (event) => {
+    event.stopPropagation(); // Предотвращаем всплытие события
+    toggleBurger();
+});
