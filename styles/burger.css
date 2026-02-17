@@ -23,6 +23,7 @@
 }
 
 .burger_cross {
+    margin-bottom: 6px;
     padding-left: 220px;
 }
 
@@ -33,6 +34,12 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.burger_logo {
+    margin-bottom: 30px;
+    width: 156px;
+    height: 26px;
 }
 
 .burger-nav__link {
