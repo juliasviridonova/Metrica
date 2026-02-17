@@ -15,13 +15,38 @@
 <body>
 
     <div class="adcontainer">
-       <div class="nav-section">
-        <img class="nav_logo" src="resources/Метрика.png" alt="Метрика">
-        <div class="nav">
-          <a href="#aboutus" class="nav_link_about">О НАС</a>
-          <a href="#projects" class="nav_link">ПРОЕКТЫ</a>
-          <a href="#services" class="nav_link">УСЛУГИ</a>
-          <a href="#contacts" class="nav_link">КОНТАКТЫ</a>
+      <header class="header">
+        <div class="header-inner">
+          <div class="nav-section">
+            <img class="nav_logo" src="resources/Метрика.png" alt="Метрика">
+            <div class="logo"></div>
+            <nav class="nav">
+              <a href="#aboutus" class="nav_link about">О НАС</a>
+              <a href="#projects" class="nav_link">ПРОЕКТЫ</a>
+              <a href="#services" class="nav_link">УСЛУГИ</a>
+              <a href="#contacts" class="nav_link">КОНТАКТЫ</a>
+            </nav>
+            <div class="js-burger-btn burger-btn">
+              <img src="resources/burger.png" alt="">
+            </div>
+        </div>
+        </div>
+        
+      </header>
+      
+      
+      <div class="js-burger burger">
+        <div class="js-burger__content burger__content">
+            <div class="logo"></div>
+            <nav class="burger-nav">
+              <div class="burger_cross">
+                <img src="resources/cross.png" alt="">
+              </div>
+                    <a class="burger-nav__link" href="">Главная</a>
+                    <a class="burger-nav__link" href="">Блок</a>
+                    <a class="burger-nav__link" href="">Услуги</a>
+                    <a class="burger-nav__link" href="">Контакты</a>
+                </nav>
         </div>
       </div>
     
@@ -41,7 +66,7 @@
         <button class="aboutus_a">Посмотреть услуги</button>
       </div>
     
-    <div id="projects">
+      <div id="projects">
       <h3>ПРОЕКТЫ</h3>
       <div class="projects_design">
         <picture>
@@ -81,7 +106,7 @@
     </div>
     
     </div>
-    </div>
+    
     
 
   <div id="services">
@@ -251,5 +276,6 @@
 
   <script src="gallery.js"></script>
   <script src="popup.js"></script>
+  <script src="burger.js"></script>
   </body>
 </html>

@@ -30,13 +30,9 @@
     
 }
 
-.nav_link_about {
-    margin-right: 60px;
+.about {
     opacity: 50%;
     margin-bottom: 2px;
-    color: #121212;
-    text-decoration: none;
-    letter-spacing: -0.03em;
 }
 
 
